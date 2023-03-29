@@ -1,0 +1,45 @@
+@font-face {
+    font-family: [Hanken Grotesk];
+    src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
+}
+
+.section__one{
+    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    width: 30%;
+    height: 400px;
+    background-color: hsl(241, 81%, 54%);
+}
+
+.section__circle{
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(252, 100%, 67%); 
+    border-radius: 50%;
+    width: 100px;
+    
+}
+.numero-maior{
+
+    font-size: 50px;
+    color: white;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-weight: 700;
+    
+}
+.numero__menor{
+    
+    color: white;
+    font-size: 12px;
+    font-family: 'Hanken Grotesk', sans-serif;
+}
+
+
+
+
