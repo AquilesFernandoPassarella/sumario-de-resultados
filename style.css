@@ -1,45 +1,42 @@
 @font-face {
-    font-family: [Hanken Grotesk];
-    src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
+  font-family: [Hanken Grotesk];
+  src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
 }
 
-.section__one{
+.principal {
+    position: absolute;
+  background-color: rgb(210, 141, 22);
+  width: 100vw;
+  height: 100vh;
+
+}
+.section__one {
     
-    margin: auto;
+    align-items: center;
+    background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 30px;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 40px;
+    height: 500px;
+    margin: 40px auto;
     width: 30%;
-    height: 400px;
-    background-color: hsl(241, 81%, 54%);
 }
 
-.section__circle{
-    height: 70px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: hsl(252, 100%, 67%); 
-    border-radius: 50%;
-    width: 100px;
-    
+.circle {
+    position: initial;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(to bottom,
+    hsla(256, 72%, 46%, 1),
+    hsla(241, 72%, 46%, 0)
+  );
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  border-radius: 50%;
+   
+  
+  
 }
-.numero-maior{
-
-    font-size: 50px;
-    color: white;
-    font-family: 'Hanken Grotesk', sans-serif;
-    font-weight: 700;
-    
-}
-.numero__menor{
-    
-    color: white;
-    font-size: 12px;
-    font-family: 'Hanken Grotesk', sans-serif;
-}
-
-
-
 
