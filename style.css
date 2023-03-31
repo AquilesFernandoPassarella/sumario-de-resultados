@@ -1,32 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 @font-face {
   font-family: [Hanken Grotesk];
   src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
 }
 
 .principal {
-    position: absolute;
+    
+  position: absolute;
   background-color: rgb(210, 141, 22);
   width: 100vw;
   height: 100vh;
 
 }
+
+
+.title__principal{
+
+  margin-top: 40px;
+
+}
+
 .section__one {
     
+  
     align-items: center;
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
     display: flex;
+    gap: 40px ;
     flex-direction: column;
     height: 500px;
     margin: 40px auto;
-    width: 30%;
+    width: 350px;
 }
 
 .circle {
-    position: initial;
+  
+  position: initial;
   display: flex;
-  align-items: center;
   flex-direction: column;
+  justify-content: center;
   background-image: linear-gradient(to bottom,
     hsla(256, 72%, 46%, 1),
     hsla(241, 72%, 46%, 0)
@@ -37,6 +56,24 @@
   border-radius: 50%;
    
   
+}
+
+.section__text{
+  font-family: Hanken Grotesk, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.text{ 
   
+  padding: 0 60px 0 60px;
+
+
+}
+
+.numero__maior{
+
+  font-size: 70px;
+
 }
 
