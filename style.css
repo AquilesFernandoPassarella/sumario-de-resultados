@@ -11,17 +11,19 @@
 }
 
 .principal {
-    
-  position: absolute;
-  background-color: rgb(210, 141, 22);
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  justify-content: center;
+  /* position: absolute; */
   width: 100vw;
   height: 100vh;
+  font-family: Hanken Grotesk, sans-serif;
 
 }
 
 
 .title__principal{
-
+  color: hsl(241, 100%, 89%);
   margin-top: 40px;
 
 }
@@ -33,10 +35,10 @@
     background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
     border-radius: 30px;
     display: flex;
-    gap: 40px ;
+    gap: 30px ;
     flex-direction: column;
     height: 500px;
-    margin: 40px auto;
+    margin: 40px 0 0 0;
     width: 350px;
 }
 
@@ -59,21 +61,48 @@
 }
 
 .section__text{
-  font-family: Hanken Grotesk, sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
   color: white;
   text-align: center;
+ 
 }
 
 .text{ 
-  
+  color:  hsl(241, 100%, 89%);
   padding: 0 60px 0 60px;
 
 
 }
 
 .numero__maior{
-
+  color: white;
   font-size: 70px;
+  font-weight: 700;
 
 }
 
+.numero__menor{
+  color: hsl(241, 100%, 89%);
+}
+
+.sumary{
+  border: 0.1px solid;
+  border-radius: 0 30px 30px 0;
+  margin: 40px 0 0 0;
+  width: 350px;
+  height: 500px;
+
+}
+
+
+.sumary__results{
+  display: flex;
+  justify-content: space-between;
+}
+
+.reaction{
+  color: hsl(0, 100%, 67%);
+}
